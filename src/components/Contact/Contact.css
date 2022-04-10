@@ -1,0 +1,57 @@
+.contact__item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #6ce3fe;
+  border: 3px solid rgb(104, 130, 224);
+  border-radius: 4px;
+  outline-style: none;
+  width: 50%;
+  color: #000;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+
+.contact__btn {
+  background-color: #6ce3fe;
+  border: 3px solid rgb(104, 130, 224);
+  border-radius: 4px;
+  width: 100px;
+  height: 50px;
+  color: #000;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  animation-name: changeBgColor;
+  animation-duration: 5000ms;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.contact__btn:hover,
+.contact__btn:focus {
+  color: #6ce3fe;
+  border: 3px solid #22187e;
+  box-shadow: 1px 4px 6px #22187e;
+  transform: scale(1.4);
+  overflow: hidden;
+  animation-play-state: paused;
+}
+
+@keyframes changeBgColor {
+  0% {
+    background-color: teal;
+  }
+
+  50% {
+    background-color: rgb(25, 25, 118);
+  }
+
+  100% {
+    background-color: deepskyblue;
+  }
+}
