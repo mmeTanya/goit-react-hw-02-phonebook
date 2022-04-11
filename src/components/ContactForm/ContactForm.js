@@ -48,7 +48,6 @@ class ContactForm extends Component {
             <label className="form__label" htmlFor="number">
               Number
             </label>
-
             <input
               className="form__input"
               type="tel"

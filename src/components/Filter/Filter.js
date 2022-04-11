@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import './Filter.css';
 
 const Filter = ({ value, onChange }) => (
-  <div className='filter'>
+  <div className="filter">
     <label className="filter__label" htmlFor="filter">
       Find contacts by name
     </label>
